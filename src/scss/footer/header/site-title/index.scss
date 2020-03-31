@@ -1,0 +1,33 @@
+.site-title {
+  &__text {
+    width: 100%;
+    max-width: 395px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    color: #585858;
+    font-family: "Museo Sans Cyrl";
+  }
+  &__sub {
+    &-text {
+      font-size: 12px;
+      letter-spacing: 0px;
+      line-height: 16px;
+      color: #282828;
+      font-family: "Museo Sans Cyrl";
+    }
+    &-ico {
+      display: inline-block;
+      width: 30px; 
+      height: 30px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      &-1 {
+        background-image: url(../img/clock.png);
+      }
+      &-2 {
+        background-image: url(../img/medal.png);
+      }
+    }
+  }
+}
