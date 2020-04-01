@@ -1,6 +1,4 @@
-@import 'general';
-@import 'fonts';
+@import '_fonts.scss';
+@import '_general.scss';
 
-@import './header/index';
-@import './header/logo/index';
-@import './header/site-title/index';
+@import './header/index.scss';

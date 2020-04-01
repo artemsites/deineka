@@ -1,0 +1,48 @@
+.working {
+  display: inline-flex;
+    width: 190px;
+    font-family: "Museo Sans Cyrl";
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  &__title {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #00af47;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    left: 8px;
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 11px;
+      height: 11px;
+      border-radius: 11px;
+      background-color: #00af47;
+      position: relative;
+      left: -12px;
+      bottom: -1px;
+    }
+  }
+  &__phone {
+    margin-top: 7px;
+    &-ico {
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      background: url(../img/phone.svg) center / contain no-repeat;
+      position: relative;
+      bottom: -1px;
+      left: -7px;
+    }
+    &-num {
+      font-family: "Gotham Pro";
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: .025em;
+      color: #262626;
+    }
+  }
+}

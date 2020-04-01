@@ -18,19 +18,19 @@ const SRC = {
     FONTS: ['./src/fonts/*'],
     IMAGES: './src/img/**/*.+(ico|svg|png|jpg|gif|webp)',
     SCSS: {
-        HEADER: ['./src/scss/header/*.scss'],
         VENDOR: {
-            HEADER: ['./src/scss/vendor/header/*.scss'],
-            FOOTER: ['./src/scss/vendor/footer/*.scss'],
+            HEADER: ['./src/scss/vendor/header/**/*.scss'],
+            FOOTER: ['./src/scss/vendor/footer/**/*.scss'],
         },
-        FOOTER: ['./src/scss/footer/*.scss'],
+        HEADER: ['./src/scss/header/**/*.scss'],
+        FOOTER: ['./src/scss/footer/**/*.scss'],
     },
     JS: {
-        HEADER: './src/js/header/*.js',
-        FOOTER: './src/js/footer/*.js',
+        HEADER: './src/js/header/**/*.js',
+        FOOTER: './src/js/footer/**/*.js',
         VENDOR: {
-            HEADER: './src/js/vendor/header/*.js',
-            FOOTER: './src/js/vendor/footer/*.js',
+            HEADER: './src/js/vendor/header/**/*.js',
+            FOOTER: './src/js/vendor/footer/**/*.js',
         },
     },
 };
